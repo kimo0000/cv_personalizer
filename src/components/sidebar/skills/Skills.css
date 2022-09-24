@@ -1,0 +1,46 @@
+.skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.skills .skill .skill_box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.skills .skill .skill_box .skill_title {
+    font-weight: 400;
+    color: #777;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.skills .skill .skill_box .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.rating .skill_rating {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #777;
+}
+
+.dark .rating .skill_rating {
+    background-color: #222;
+}
+
+.rating .skill_rating.plain {
+    background-color: #000;
+}
+
+.dark .rating .skill_rating.plain {
+    background-color: #fff;
+}

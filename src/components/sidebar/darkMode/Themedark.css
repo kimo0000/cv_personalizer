@@ -1,0 +1,60 @@
+.theme_dark {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+    transition: .3s;
+}
+
+.btn:active {
+    transform: translateY(3px);
+    box-shadow: 0 0 0;
+}
+
+.pdf {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 900;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    color: #fff;
+    font-size: 22px;
+    transition: .3s;
+}
+
+.pdf:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #000;
+}
+
+.dark .pdf {
+    color: rgb(248, 153, 153);
+}
+
+.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.light {
+    background-color: #fff;
+    color: #000;
+}
+
+.light .pdf {
+    background-color: transparent;
+}

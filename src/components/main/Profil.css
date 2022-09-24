@@ -1,0 +1,14 @@
+.profil {
+    padding: 10px;
+    background-color: rgb(245, 212, 212);
+    border-radius: 25px;
+}
+
+.dark .profil {
+    background-color: #000;
+    color: #fff;
+}
+
+.profil p {
+    color: #777;
+}

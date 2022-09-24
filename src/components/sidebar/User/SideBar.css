@@ -1,0 +1,40 @@
+.sidebar {
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+.dark .sidebar {
+    background-color: #000;
+    color: #fff;
+}
+
+.sidebar .header {
+    text-align: center;
+}
+
+.sidebar .header img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar .header h3 {
+    font-size: 22px;
+    letter-spacing: 1.2px;
+    margin-bottom: 0;
+}
+
+.sidebar .header p {
+    color: #777;
+}
+
+.sidebar .sidebar_info {
+    text-align: left;
+}
+
+.sidebar .sidebar_info p {
+     margin-bottom: 5px;
+     color: #777;
+}

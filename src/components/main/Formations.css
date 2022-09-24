@@ -1,0 +1,30 @@
+.formations {
+    margin-top: 25px;
+}
+
+.formations h3 {
+    margin-bottom: 0;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.form .date {
+    display: flex;
+    align-items: center;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.form p {
+    margin: 0;
+}
+
+.form .info p:nth-child(2) {
+    color: blueviolet;
+    cursor: pointer;
+}
